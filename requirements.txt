@@ -1,0 +1,18 @@
+# requirements.txt for Groq Proactive AI Agent + Streamlit app
+
+# Core dependencies
+groq>=0.4.0
+streamlit>=1.38.0
+python-dotenv>=1.0.1
+
+# Optional helpers
+requests>=2.32.3
+pillow>=10.4.0
+
+# For typing support (optional but helpful)
+typing-extensions>=4.12.2
+
+# For local experimentation
+faiss-cpu>=1.8.0.post1  # optional if using vector retrieval
+
+# Ensure Python >= 3.9
